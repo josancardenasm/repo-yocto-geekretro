@@ -1,0 +1,10 @@
+<manifest>
+    <remote name="Yocto" fetch="git://git.yoctoproject.org"/>
+    <default revision="refs/heads/master" remote="Yocto" sync-j="4"/>
+
+    <remote name="oe" fetch="git://github.com/openembedded"/>
+    <default revision="refs/heads/master" remote="Yocto" sync-j="4"/>
+
+    <project name="poky" remote="Yocto" revision="dunfell" path="poky"/>
+    <project name="meta-openembedded" remote="oe" revision="dunfell" path="yocto/meta-oe" />
+</manifest>
