@@ -5,6 +5,6 @@
     <remote name="oe" fetch="git://github.com/openembedded"/>
     <default revision="refs/heads/master" remote="Yocto" sync-j="4"/>
 
-    <project name="poky" remote="Yocto" revision="dunfell" path="poky"/>
+    <project name="poky" remote="Yocto" revision="dunfell" path="yocto"/>
     <project name="meta-openembedded" remote="oe" revision="dunfell" path="yocto/meta-oe" />
 </manifest>
